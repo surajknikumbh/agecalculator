@@ -1,0 +1,76 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    height: 150px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.box{
+    height: 150%;
+    width: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box{
+    background-color: rgb(3, 3, 3);
+    height: 60px;
+    width: 90%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 0 3px 2px darkgray;
+}
+.date{
+    border: none;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    padding: 10px;
+    font-family: 'Lucida Sans';
+}
+.calculate{
+    font-size: 0.8rem;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Lucida Sans';
+
+}
+.inner-boxs{
+    background-color: rgb(3, 3, 3);
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 3px 2px darkgray;
+}
+.number{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 0px;
+    margin: 8%;
+    padding-top: 15px;
+}
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    color: aliceblue;
+}
